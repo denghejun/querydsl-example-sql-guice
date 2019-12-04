@@ -125,17 +125,17 @@
                 </executions>
                 <configuration>
                     <!--                    H2   -->
-                    <!--                    <jdbcDriver>org.h2.Driver</jdbcDriver>-->
-                    <!--                    <jdbcUrl>jdbc:h2:${project.basedir}/h2</jdbcUrl>-->
-                    <!--                    <jdbcUser>sa</jdbcUser>-->
-                    <!--                    <packageName>com.querydsl.example.sql.model</packageName>-->
+                    <jdbcDriver>org.h2.Driver</jdbcDriver>
+                    <jdbcUrl>jdbc:h2:${project.basedir}/h2</jdbcUrl>
+                    <jdbcUser>sa</jdbcUser>
+                    <packageName>com.querydsl.example.sql.model</packageName>
 
                     <!--                    Oracle     -->
-                    <jdbcDriver>oracle.jdbc.OracleDriver</jdbcDriver>
-                    <jdbcUrl>jdbc:oracle:thin:@10.137.195.24:31208/xe</jdbcUrl>
-                    <jdbcUser>system</jdbcUser>
-                    <jdbcPassword>oracle</jdbcPassword>
-                    <packageName>oracle.model</packageName>
+                    <!--                    <jdbcDriver>oracle.jdbc.OracleDriver</jdbcDriver>-->
+                    <!--                    <jdbcUrl>jdbc:oracle:thin:@10.137.195.24:31208/xe</jdbcUrl>-->
+                    <!--                    <jdbcUser>system</jdbcUser>-->
+                    <!--                    <jdbcPassword>oracle</jdbcPassword>-->
+                    <!--                    <packageName>oracle.model</packageName>-->
 
 
                     <targetFolder>${project.basedir}/target/generated-sources/java</targetFolder>
@@ -143,20 +143,20 @@
                 </configuration>
                 <dependencies>
                     <!--                    H2      -->
-                    <!--                    <dependency>-->
-                    <!--                        <groupId>com.h2database</groupId>-->
-                    <!--                        <artifactId>h2</artifactId>-->
-                    <!--                        <version>${h2.version}</version>-->
-                    <!--                    </dependency>-->
+                    <dependency>
+                        <groupId>com.h2database</groupId>
+                        <artifactId>h2</artifactId>
+                        <version>${h2.version}</version>
+                    </dependency>
 
                     <!--                    Oracle      -->
-                    <dependency>
-                        <groupId>com.oracle.jdbc</groupId>
-                        <artifactId>ojdbc7</artifactId>
-                        <version>12.1.0.1</version>
-                        <scope>system</scope>
-                        <systemPath>${project.basedir}/lib/ojdbc7-12.1.0.1.jar</systemPath>
-                    </dependency>
+                    <!--                    <dependency>-->
+                    <!--                        <groupId>com.oracle.jdbc</groupId>-->
+                    <!--                        <artifactId>ojdbc7</artifactId>-->
+                    <!--                        <version>12.1.0.1</version>-->
+                    <!--                        <scope>system</scope>-->
+                    <!--                        <systemPath>${project.basedir}/lib/ojdbc7-12.1.0.1.jar</systemPath>-->
+                    <!--                    </dependency>-->
                 </dependencies>
             </plugin>
 
