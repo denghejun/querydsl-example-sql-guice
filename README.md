@@ -1,5 +1,7 @@
 ## Querydsl SQL Example
 
+Please set your project JDK 1.8
+
 Querydsl SQL Example is an example project that demonstrates some best practices on how to use Querydsl SQL in repositories.
 
 Compared to direct JDBC usage Querydsl SQL is typesafe, closer to SQL and abstracts over SQL dialect specific differences.

@@ -132,7 +132,7 @@
 
                     <!--                    Oracle     -->
                     <jdbcDriver>oracle.jdbc.OracleDriver</jdbcDriver>
-                    <jdbcUrl>jdbc:oracle:thin:@10.137.195.24:31216/xe</jdbcUrl>
+                    <jdbcUrl>jdbc:oracle:thin:@10.137.195.24:31208/xe</jdbcUrl>
                     <jdbcUser>system</jdbcUser>
                     <jdbcPassword>oracle</jdbcPassword>
                     <packageName>oracle.model</packageName>
