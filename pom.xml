@@ -130,12 +130,12 @@
                     <!--                    <jdbcUser>sa</jdbcUser>-->
                     <!--                    <packageName>com.querydsl.example.sql.model</packageName>-->
 
-                    <!--                    CBS Oracle     -->
+                    <!--                    Oracle     -->
                     <jdbcDriver>oracle.jdbc.OracleDriver</jdbcDriver>
                     <jdbcUrl>jdbc:oracle:thin:@10.137.195.24:31216/xe</jdbcUrl>
                     <jdbcUser>system</jdbcUser>
                     <jdbcPassword>oracle</jdbcPassword>
-                    <packageName>com.cbs.model</packageName>
+                    <packageName>oracle.model</packageName>
 
 
                     <targetFolder>${project.basedir}/target/generated-sources/java</targetFolder>
@@ -149,7 +149,7 @@
                     <!--                        <version>${h2.version}</version>-->
                     <!--                    </dependency>-->
 
-                    <!--                    CBS Oracle      -->
+                    <!--                    Oracle      -->
                     <dependency>
                         <groupId>com.oracle.jdbc</groupId>
                         <artifactId>ojdbc7</artifactId>
